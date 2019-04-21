@@ -127,7 +127,7 @@ class CommentForm extends Component {
       <div>
         <Button outline color="secondary" onClick={this.toggleModal}><span className="fa fa-edit fa-lg"></span> Submit Comment</Button>
 
-        <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
+        <Modal isOpen={this.state.isModalOpen}>
             <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
             <ModalBody>
               <LocalForm onSubmit={(values) => this.handleSubmit(values)}>
