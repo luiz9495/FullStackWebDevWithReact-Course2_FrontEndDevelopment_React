@@ -176,7 +176,7 @@ class CommentForm extends Component {
                 </Row>
                 <Row className="form-group">
                   <Col sm={12}>
-                    <Button type="submit" value="submit" color="primary">Login</Button>
+                    <Button type="submit" value="submit" color="primary">Submit</Button>
                   </Col>
                 </Row>
               </LocalForm>
